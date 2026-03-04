@@ -181,8 +181,8 @@ Función de transición δ:
 δ(start,a) = s0  
 δ(start,b) = s4  
 δ(start,c) = s4  
-δ(s0,a) = start  
-δ(s0,b) = start  
+δ(s0,a) = s4  
+δ(s0,b) = s4  
 δ(s0,c) = s1  
 δ(s1,a) = s2  
 δ(s1,b) = s1  
@@ -201,14 +201,14 @@ Función de transición δ:
 | Estado  | a     | b     | c  |
 | ------- | ----- | ----- | -- |
 | → start | s0    | s4    | s4 |
-| s0      | start | start | s1 |
+| s0      | s4    | z4    | s1 |
 | s1      | s2    | s1    | s1 |
 | s2      | s2    | s3    | s1 |
 | * s3    | s2    | s1    | s1 |
 | s4      | s4    | s4    | s4 |
 
 <p align="center">
-  <img width="883" height="467" alt="image" src="https://github.com/user-attachments/assets/d31e8690-c11e-4db1-8f3a-a78dad217f90" />
+  <img width="803" height="454" alt="image" src="https://github.com/user-attachments/assets/4fa8f92f-ec21-4e9f-954d-9925f87b20a0" />
   <br />
   <em>Imagen 5.1: Diagrama de transición de estados del ejercicio 5</em>
 </p>
@@ -243,10 +243,10 @@ Función de transición δ:
 δ(s1,c) = s1  
 δ(s2,a) = s2  
 δ(s2,b) = s3  
-δ(s2,c) = s2  
+δ(s2,c) = s1  
 δ(s3,a) = s2  
-δ(s3,b) = s3  
-δ(s3,c) = s2  
+δ(s3,b) = s1  
+δ(s3,c) = s1  
 δ(s4,a) = s4  
 δ(s4,b) = s4  
 δ(s4,c) = s4  
@@ -257,13 +257,13 @@ Función de transición δ:
 | → start | s0 | s4 | s4 |
 | s0      | s4 | s4 | s1 |
 | * s1    | s2 | s1 | s1 |
-| * s2    | s2 | s3 | s2 |
-| s3      | s2 | s3 | s2 |
+| * s2    | s2 | s3 | s1 |
+| s3      | s2 | s1 | s1 |
 | s4      | s4 | s4 | s4 |
 
 
 <p align="center">
-  <img width="779" height="401" alt="image" src="https://github.com/user-attachments/assets/ff7c8ccb-843d-4a75-9dd3-97c4b7f2ecd5" />
+  <img width="758" height="393" alt="image" src="https://github.com/user-attachments/assets/ee6aa3e5-d1ea-406b-bf35-33637483dbf7" />
   <br />
   <em>Imagen 6.1: Diagrama de transición de estados del ejercicio 6</em>
 </p>
@@ -308,7 +308,7 @@ Función de transición δ:
 δ(s3,c) = s3  
 δ(s3,d) = s3  
 δ(s4,a) = s3  
-δ(s4,b) = s3  
+δ(s4,b) = s2  
 δ(s4,c) = s3  
 δ(s4,d) = s3  
 δ(s5,a) = s5  
@@ -324,12 +324,12 @@ Función de transición δ:
 | s1      | s5 | s2 | s5 | s5 |
 | * s2    | s3 | s2 | s3 | s4 |
 | * s3    | s3 | s2 | s3 | s3 |
-| s4      | s3 | s3 | s3 | s3 |
+| s4      | s3 | s2 | s3 | s3 |
 | s5      | s5 | s5 | s5 | s5 |
 
 
 <p align="center">
-  <img width="1014" height="491" alt="image" src="https://github.com/user-attachments/assets/6e299936-2ea1-49b3-8e3c-8c5223d0e043" />
+  <img width="991" height="481" alt="image" src="https://github.com/user-attachments/assets/ffd7a70a-3683-4b0e-a3d8-61d54152c614" />
   <br />
   <em>Imagen 7.1: Diagrama de transición de estados del ejercicio 7</em>
 </p>
